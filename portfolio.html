@@ -1,77 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
-  <title>Stephen Urena</title>
- 
+  <title>Portfolio | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 </head>
 
 <body>
 
-  <header>
-    <div id="headerBar">
-      <div id="navh1">
-        <h1>Stephen Urena</h1>
-      </div>
-      <div id="nav-bar">
-    	  <a class="nav-content" href="index.html">About</a>
-    	  <a class="nav-content" href="portfolio.html">Portfolio</a>
-    	  <a class="nav-content" href="contact.html">Contact</a>
-  	  </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
   </header>
 
-    <div class="mainContainer">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
-      <div class="mainSection">
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
 
-        <section id="main-section">
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
 
-          <h2>Portfolio</h2>
-          <div class="gallery">
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
 
-            <div class="module1 mid">
-              <h3>Hangman</h3>
-            </div>
-            <div class="module2 mid">
-              <h3>RPG Game</h3>
-            </div>
-             <br style="clear: both;">
-            <div class="module3 mid">
-              <h3>Trivia Game</h3>
-            </div>
-            <div class="module4 mid">
-              <h3>Rutgers Info Widget</h3>
-            </div>
-              <br style="clear: both;">
-            <div class="module5 mid">
-              <h3>Rock Paper Scissors</h3>
-            </div>
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
 
-          </div>
-        </section>
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
 
-        <section id="sideBar">
-          <h2>Connect with me</h2>
-          <div class="connect">
-            <a href="https://github.com/stephenurena"><img class="SocialLogo"  src="assets/images/SocialMediaIcons/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png" alt="GitHub Profile"></a>
-            <a href="https://www.linkedin.com/in/stephenmurena"><img class="SocialLogo" src="assets/images/SocialMediaIcons/In-2C-128px-R.png" alt="LinkedIn Profile"></a>
-            <a href="http://stackoverflow.com/users/7305094/stephen-urena"><img class="SocialLogo" src="assets/images/SocialMediaIcons/so-icon.png" alt="StackOverflow Profile"></a>
-          </div>
-        </section>
-
+        <h3>Rock Paper Scissors</h3>
       </div>
 
-    </div>
+    </section>
 
-  <div class="site-Footer">
-    <p id="pFooter">&copy; Copyright <script type="text/javascript"> document.write(new Date().getFullYear());</script> Stephen Urena
-    </p>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
   </div>
 
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 </body>
+
 </html>
